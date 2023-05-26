@@ -8,10 +8,10 @@ const app = express();
 app.use(bodyParser.json())
 
 let authors = [
-    { id: 1, name: "auteur 1" },
-    { id: 2, name: "auteur 2" },
-    { id: 3, name: "auteur 3" },
-    { id: 4, name: "auteur 4" },
+    { id: 1, name: "author 1" },
+    { id: 2, name: "author 2" },
+    { id: 3, name: "author 3" },
+    { id: 4, name: "author 4" },
 ]
 
 app.get('/authors', async (req, res) => {

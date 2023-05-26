@@ -7,10 +7,10 @@ const app = express();
 app.use(bodyParser.json())
 
 let books = [
-    { id: 1, tittle: "livre 1", authorId: 1, categoryId: 1 },
-    { id: 2, tittle: "livre 2", authorId: 2, categoryId: 2 },
-    { id: 3, tittle: "livre 3", authorId: 3, categoryId: 3 },
-    { id: 4, tittle: "livre 4", authorId: 4, categoryId: 4 },
+    { id: 1, tittle: "book 1", authorId: 1, categoryId: 1 },
+    { id: 2, tittle: "book 2", authorId: 2, categoryId: 2 },
+    { id: 3, tittle: "book 3", authorId: 3, categoryId: 3 },
+    { id: 4, tittle: "book 4", authorId: 4, categoryId: 4 },
 ]
 
 app.get('/books', async (req, res) => {
